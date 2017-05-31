@@ -1,0 +1,17 @@
+{
+  "name": "super-blog",
+  "description": "Small description for super-blog goes here",
+  "main": "",
+  "authors": [
+    "Elan Baharie <0elan1@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

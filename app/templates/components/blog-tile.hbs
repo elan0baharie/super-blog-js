@@ -1,0 +1,8 @@
+<li>
+  <h5>Written by {{blog.author}} on {{blog.date}}</h5>
+  <p>
+    {{blog.content}}
+  </p>
+  {{update-blog blog=blog update="update"}}
+  <button {{action 'delete' blog}}>Delete</button>
+</li>

@@ -1,0 +1,14 @@
+<h1> Welcome to Super Blogging </h1>
+
+<p>We hope you find exactly what you're .</p>
+
+{{new-blog saveBlog2="saveBlog3"}}
+
+<ul>
+  {{#each model as |blog|}}
+    {{blog-tile blog=blog update="update" destroyBlog="destroyBlog"}}
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact me.{{/link-to}}
